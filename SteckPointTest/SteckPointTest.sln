@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SteckPointSendData", "SteckPointTest\SteckPointSendData.csproj", "{7C4654EA-B404-4DE7-AE8A-DA91C45F2445}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SteckPointSendData.Infrastructure", "SteckPoint.Infrastructure\SteckPointSendData.Infrastructure.csproj", "{4AF2D55E-8A08-44F4-9D95-2A9CA1C8704B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SteckPointSendData.Domain", "SteckPoint.Domain\SteckPointSendData.Domain.csproj", "{B6638730-6169-4BA6-94DA-EE360F553AF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteckPointTestSetData", "SteckPointTestSetData\SteckPointTestSetData.csproj", "{B28DAB8B-498E-4EE7-B79D-FB60BA852483}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteckPointTestSetData.Domain", "SteckPointTestSendData.Domain\SteckPointTestSetData.Domain.csproj", "{BD71E6FC-2D1E-45FD-A7BD-24B59563E0E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteckPointTestSetData.Infrastructure", "SteckPointTestSendData.Infrastructure\SteckPointTestSetData.Infrastructure.csproj", "{6837DFB3-51C4-4285-9F66-9B3E76D647E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C4654EA-B404-4DE7-AE8A-DA91C45F2445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4654EA-B404-4DE7-AE8A-DA91C45F2445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4654EA-B404-4DE7-AE8A-DA91C45F2445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4654EA-B404-4DE7-AE8A-DA91C45F2445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF2D55E-8A08-44F4-9D95-2A9CA1C8704B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF2D55E-8A08-44F4-9D95-2A9CA1C8704B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF2D55E-8A08-44F4-9D95-2A9CA1C8704B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF2D55E-8A08-44F4-9D95-2A9CA1C8704B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6638730-6169-4BA6-94DA-EE360F553AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6638730-6169-4BA6-94DA-EE360F553AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6638730-6169-4BA6-94DA-EE360F553AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6638730-6169-4BA6-94DA-EE360F553AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28DAB8B-498E-4EE7-B79D-FB60BA852483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28DAB8B-498E-4EE7-B79D-FB60BA852483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28DAB8B-498E-4EE7-B79D-FB60BA852483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28DAB8B-498E-4EE7-B79D-FB60BA852483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD71E6FC-2D1E-45FD-A7BD-24B59563E0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD71E6FC-2D1E-45FD-A7BD-24B59563E0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD71E6FC-2D1E-45FD-A7BD-24B59563E0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD71E6FC-2D1E-45FD-A7BD-24B59563E0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6837DFB3-51C4-4285-9F66-9B3E76D647E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6837DFB3-51C4-4285-9F66-9B3E76D647E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6837DFB3-51C4-4285-9F66-9B3E76D647E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6837DFB3-51C4-4285-9F66-9B3E76D647E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6CFE9EA-C2B4-4284-8DD0-02B0B6708C62}
+	EndGlobalSection
+EndGlobal
